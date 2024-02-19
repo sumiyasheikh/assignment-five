@@ -1,7 +1,7 @@
 .row{
     width: 110px;
     height: 56px;
-    margin: 32px;
+    margin: 24px;
     background-color: #F7F8F8;
     text-align: center;
     line-height: 50px;
@@ -10,7 +10,7 @@
 .seat1{
     width: 110px;
     height: 56px;
-    margin: 32px;
+    margin: 24px;
     border-radius: 12px;
     background-color: #F7F8F8;
     text-align: center;
@@ -20,7 +20,7 @@
 .seat{
     width: 110px;
     height: 56px;
-    margin: 32px;
+    margin: 24px;
     border-radius: 12px;
     background-color: #F7F8F8;
     text-align: center;
@@ -28,20 +28,8 @@
     cursor: pointer;
 }
 
-.selected-seats{
-    margin-top: 20px;
-}
-
 .total-price{
     margin-top: 10px;
-}
-
-#couponInput{
-    margin-top: 10px;
-}
-
-#applyCouponButton{
-    margin-top: 5px;
 }
 
 .success-message-section{
