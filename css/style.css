@@ -1,0 +1,45 @@
+.row {
+    width: 110px;
+    height: 56px;
+    margin: 32px;
+    background-color: transparent;
+    text-align: center;
+    line-height: 50px;
+}
+
+.seat {
+    width: 110px;
+    height: 56px;
+    margin: 32px;
+    border-radius: 12px;
+    background-color: lightgray;
+    text-align: center;
+    line-height: 50px;
+    cursor: pointer;
+}
+
+.disabled {
+    background-color: gray;
+    cursor: not-allowed;
+}
+
+.selected {
+    color: white;
+    background-color: green;
+}
+
+.selected-seats {
+    margin-top: 20px;
+}
+
+.total-price {
+    margin-top: 10px;
+}
+
+#couponInput {
+    margin-top: 10px;
+}
+
+#applyCouponButton {
+    margin-top: 5px;
+}
